@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# To add a common liubrary
+
+ng generate library "name of library" on this library, we'll gonna create a service to contact each microfrontend
+
+# Packet @angular-architects/module-federation
+
+Provides a generator customizable. 
+
+ ng add @angular-architects/module-federation --project mf-shell --port 4200 --type host
+
+ This creates the host of the microfrontends

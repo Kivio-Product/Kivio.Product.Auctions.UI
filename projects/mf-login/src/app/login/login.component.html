@@ -1,0 +1,21 @@
+<div class="parent">
+    <div class="container">
+        <div class="login-box">
+            <h1 class="text">Login</h1>
+            <form [formGroup]="loginForm">
+                <div class="input-box">
+                    <input type="email" formControlName = 'email'>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" formControlName = 'password'>
+                    <label>Password</label>
+                </div>
+                <button type="button" class="btn" (click)="onLogin()">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
